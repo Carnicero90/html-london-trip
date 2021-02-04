@@ -11,6 +11,7 @@
     <title>Vip in Trip</title>
   </head>
   <body>
+    <!-- Inizio sezione intro: titolo ed evocativo trittico della Londra notturna -->
     <header>
       <h1>Il mio Viaggio a Londra</h1>
       <figure>
@@ -27,11 +28,11 @@
           alt="grandangolo notturno su Londra pt.3"
         />
       </figure>
-      <!-- Non sono sicuro questo uso del tag "figure" sia effettivamente corretto; non chiedo perché 
-      esula dagli argomenti affrontati sinora nel corso, ma avendolo visto (spulciando oggi la documentazione Mozilla-,
-      provo a inserirlo) -->
+      <!-- possibile superfluità della raccolta delle immagini in un "container", tuttavia a me pare razionale -->
+      <hr />
     </header>
-    <hr />
+    <!-- Fine sezione intro -->
+
     <!-- Inizio sezione recap spese effettuate (tutte in biglietti aerei, apparentemente) -->
     <section>
       <h2>Le mie Spese</h2>
@@ -66,7 +67,7 @@
         </tfoot>
       </table>
       <!-- francamente avrei voluto fare la tabella di cui sopra pure un pelo più semantica, ma graficamente
-      sarebbe risultata diversa dall'immagine dell'esercizio (sostanzialmente causa i th "grassettati".) -->
+      sarebbe risultata diversa dall'immagine dell'esercizio (sostanzialmente causa i th "grassettati"). Anche qua, possibile caso di overengineering. -->
       <hr />
     </section>
     <!-- Fine sezione recap spese effettuate -->
@@ -122,7 +123,7 @@
     <!-- Inizio corredo fotografico (non molto nutrito) -->
     <section>
       <h2>Le foto</h2>
-      <figure>
+      <div>
         <img
           src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
           alt="ponte di Londra di cui non mi sovviene il nome"
@@ -131,7 +132,7 @@
           src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg"
           alt="persone sedute che mangiano"
         />
-      </figure>
+      </div>
     </section>
     <!-- Fine corredo fotografico -->
   </body>
